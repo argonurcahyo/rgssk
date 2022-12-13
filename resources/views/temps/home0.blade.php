@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    {{-- <script src="{{ asset('js/initTheme.js') }}"></script> --}}
+    <script src="{{ asset('js/initTheme.js') }}"></script>
     <div id="app">
         <div id="sidebar" class="active">
             <div class="sidebar-wrapper active">
