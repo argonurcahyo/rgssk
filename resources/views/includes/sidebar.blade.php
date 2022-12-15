@@ -290,7 +290,7 @@
                 </a>
                 <ul class="submenu">
                     <li class="submenu-item">
-                        <a href="ui-map-google-map.html">Google Map</a>
+                        <a href="{{ url('map/gmap') }}">Google Map</a>
                     </li>
                     <li class="submenu-item">
                         <a href="ui-map-jsvectormap.html">JS Vector Map</a>

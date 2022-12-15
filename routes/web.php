@@ -5,6 +5,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\TableController;
 use App\Http\Controllers\UploadController;
 use App\Http\Controllers\FormController;
+use App\Http\Controllers\MapController;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,3 +24,4 @@ Route::get('/datatable/1', [TableController::class, 'datatable1'])->name('datata
 Route::get('/datatable/2', [TableController::class, 'datatable2'])->name('datatable.2');
 Route::get('/upload', [UploadController::class, 'index'])->name('upload');
 Route::get('/form/layout', [FormController::class, 'layout'])->name('form.layout');
+Route::get('/map/gmap', [MapController::class, 'gmap'])->name('map.gmap');
